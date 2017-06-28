@@ -1,0 +1,80 @@
+package org.wikipedia.activity;
+
+import android.content.pm.ActivityInfo;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.annotation.ColorRes;
+import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+
+import com.squareup.otto.Subscribe;
+
+import org.wikipedia.WikipediaApp;
+import org.wikipedia.events.NetworkConnectEvent;
+import org.wikipedia.events.WikipediaZeroEnterEvent;
+import org.wikipedia.readinglist.sync.ReadingListSynchronizer;
+import org.wikipedia.settings.Prefs;
+
+public abstract class BaseActivity extends AppCompatActivity {
+    private boolean destroyed;
+    private EventBusMethods busMethods;
+
+    @Override public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    protected void requestFullUserOrientation() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_USER);
+        }
+    }
+
+    @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        busMethods = new EventBusMethods();
+        WikipediaApp.getInstance().getBus().register(busMethods);
+    }
+
+    @Override protected void onDestroy() {
+        WikipediaApp.getInstance().getBus().unregister(busMethods);
+        busMethods = null;
+        super.onDestroy();
+        destroyed = true;
+    }
+
+    protected void setStatusBarColor(@ColorRes int color) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(ContextCompat.getColor(this, color));
+        }
+    }
+
+    @Override public boolean isDestroyed() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            return super.isDestroyed();
+        }
+        return destroyed;
+    }
+
+    private class EventBusMethods {
+        // todo: reevaluate lifecycle. the bus is active when this activity is paused and we show ui
+        @Subscribe public void on(WikipediaZeroEnterEvent event) {
+            if (Prefs.isZeroTutorialEnabled()) {
+                Prefs.setZeroTutorialEnabled(false);
+                WikipediaApp.getInstance().getWikipediaZeroHandler()
+                        .showZeroTutorialDialog(BaseActivity.this);
+            }
+        }
+
+        @Subscribe public void on(NetworkConnectEvent event) {
+            ReadingListSynchronizer.instance().syncSavedPages();
+        }
+    }
+}

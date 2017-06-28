@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ScrollableTabsTest</string>
+    <string name="one">ONE
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.
+    In the layout xml, we need to have CoordinatorLayout in the top. Add Toolbar inside AppBarLayout and the AppBarLayout needs to be inside the CoordinatorLayout. CoordinatorLayout is the one, which gives proper scrolling and material animations to the views attached with it like FloatingButtons, ModalSheets and SnackBar.</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="ten">TEN</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+</resources>

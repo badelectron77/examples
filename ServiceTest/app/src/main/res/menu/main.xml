@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/start_action"
+        app:showAsAction="ifRoom"
+        android:title="@string/start_text" />
+    <item android:id="@+id/cancel_action"
+          app:showAsAction="ifRoom"
+        android:title="@string/cancel_text" />
+</menu>

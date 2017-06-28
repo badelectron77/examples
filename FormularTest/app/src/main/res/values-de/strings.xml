@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_send">Los!</string>
+    <string name="edit_message">Deine Nachricht</string>
+    <string name="nothing_written">Du hast nichts eingegeben.</string>
+    <string name="edit_email">E-Mail</string>
+</resources>

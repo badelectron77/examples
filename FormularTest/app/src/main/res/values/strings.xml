@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">FormularTest</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="nothing_written">You did not enter anything.</string>
+    <string name="edit_email">Your Email</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="facts">
+        <item>Ants stretch when they wake up in the morning.</item>
+        <item>Ostriches can run faster than horses.</item>
+        <item>Olympic gold medals are actually made mostly of silver.</item>
+        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
+        <item>It takes about 8 minutes for light from the Sun to reach Earth.</item>
+        <item>Some bamboo plants can grow almost a meter in just one day.</item>
+        <item>The state of Florida is bigger than England.</item>
+        <item>Some penguins can leap 2&#8211;3 meters out of the water</item>
+        <item>On average, it takes 66 days to form a new habit</item>
+        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
+        <item>Treehouse is not actually in a tree.</item>
+    </string-array>
+
+    <string-array name="screenColors">
+        <item>#51b46d</item>
+        <item>#39add1</item>
+        <item>#3079ab</item>
+        <item>#c25975</item>
+        <item>#e15258</item>
+        <item>#f9845b</item>
+        <item>#838cc7</item>
+        <item>#7d669e</item>
+        <item>#53bbb4</item>
+        <item>#e0ab18</item>
+        <item>#f092b0</item>
+    </string-array>
+
+    <string-array name="darkerColors">
+        <item>#3d8f54</item>
+        <item>#2788a5</item>
+        <item>#27638b</item>
+        <item>#a83e5a</item>
+        <item>#d9262f</item>
+        <item>#f75a22</item>
+        <item>#616cb8</item>
+        <item>#62507c</item>
+        <item>#41a49e</item>
+        <item>#b98d13</item>
+        <item>#ea628d</item>
+    </string-array>
+
+
+</resources>

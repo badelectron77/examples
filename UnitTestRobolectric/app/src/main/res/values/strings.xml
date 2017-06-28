@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Unit Tests Robolectric</string>
+    <string name="other_activity">Other Activity</string>
+    <string name="textview">TextView</string>
+    <string name="change_me">change me</string>
+    <string name="change_background_color">Change Background Color</string>
+    <string name="launch_activity">Launch Activity</string>
+
+    <string-array name="colors_array">
+        <item>White</item>
+        <item>Magenta</item>
+        <item>Green</item>
+        <item>Cyan</item>
+    </string-array>
+</resources>
