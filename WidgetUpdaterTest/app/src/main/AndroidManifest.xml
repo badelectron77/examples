@@ -3,6 +3,8 @@
           package="de.joesch_it.widgetupdatertest"
     >
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,6 +26,7 @@
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="com.eightbitcloud.example.widget.8BITCLOCK_WIDGET_UPDATE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget1_info" />
         </receiver>
