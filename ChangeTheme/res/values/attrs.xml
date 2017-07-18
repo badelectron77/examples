@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+       <!-- View styles -->
+       <attr name="textTitle" format="reference" />
+       <attr name="textBody" format="reference" />
+       <attr name="buttonText" format="reference"/>
+       <attr name="radioButtonText" format="reference"/>
+       <attr name="backgroundTheme" format="reference"></attr>
+      
+ </resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">com.exampe.ChangeTheme</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="question">What is the capital of India</string>
+
+</resources>

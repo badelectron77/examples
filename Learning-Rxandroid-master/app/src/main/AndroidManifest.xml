@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tiny.learning_rxandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RxBaseExampleActivity"
+            android:label="@string/title_rxbase_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UsageExampleActivity"
+            android:label="@string/usage_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SchedulerExampleActivity"
+            android:label="@string/title_scheduler_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapExampleActivity"
+            android:label="@string/title_map_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FlatMapExampleActivity"
+            android:label="@string/title_flatmap_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ThrottleFirstExampleActivity"
+            android:label="@string/title_throttle_first_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LiftExampleActivity"
+            android:label="@string/title_lift_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".SchedulerMultiExampleActivity"
+            android:label="@string/title_scheduler_multi_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ComposeExampleActivity"
+            android:label="@string/title_compose_example_activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.tiny.learning_rxandroid" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
